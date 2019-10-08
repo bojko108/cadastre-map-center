@@ -1,0 +1,19 @@
+{
+  "name": "Cadastre Map Center",
+  "version": "2.0",
+  "description": "Gets map center coordinates",
+  "manifest_version": 2,
+  "permissions": ["activeTab", "declarativeContent", "http://*/", "https://*/"],
+  "content_scripts": [
+    {
+      "matches": ["https://kais.cadastre.bg/bg/Map/*"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "web_accessible_resources": ["external-script.js"],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Get map coordinates",
+    "default_popup": "popup.html"
+  }
+}

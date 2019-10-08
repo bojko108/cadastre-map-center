@@ -1,6 +1,14 @@
 var getCoordinates = (transform = false) => {
   let mapCenter = window.mainMap.OlMapInstance.getView().getCenter();
-  let coordinates = transform ? window.ol.proj.transform(mapCenter, 'EPSG:8122', 'EPSG:25835') : coordinates;
+  let coordinates = [];
+  if (transform) {
+    let tmp = window.ol.proj.transform(mapCenter, 'EPSG:8122', 'EPSG:25835');
+    coordinates[0] = tmp[1];
+    coordinates[1] = tmp[0];
+  } else {
+    coordinates[0] = mapCenter[1];
+    coordinates[1] = mapCenter[0];
+  }
   return coordinates.map(c => c.toFixed(3));
 };
 

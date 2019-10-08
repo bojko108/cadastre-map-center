@@ -19,7 +19,7 @@ window.onload = function() {
     item.className = 'mc-controlbox';
 
     let button = document.createElement('button');
-    button.appendChild(document.createTextNode('Get Coordinates'));
+    button.appendChild(document.createTextNode('Копирай координати'));
     button.style.width = '100px';
     button.style.height = '30px';
     button.style.font = '12px Roboto,Ubuntu';
@@ -33,10 +33,10 @@ window.onload = function() {
       let coordinates = getCoordinates(true);
       navigator.clipboard.writeText(coordinates).then(
         () => {
-          alert(`Coordinates ${coordinates} were copied to clipboard!`);
+          alert(`Координати ${coordinates} бяха копирани в клипборда!`);
         },
         err => {
-          alert('Could not copy text: ', err);
+          alert('Грешка: ', err);
         }
       );
     };

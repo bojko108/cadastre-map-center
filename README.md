@@ -2,7 +2,7 @@
 
 Developed as a chrome extension, this tool can be used to copy map's center coordinates to your clipboard.
 
-This extension can be used in [https://kais.cadastre.bg/bg/Map](https://kais.cadastre.bg/bg/Map) site only. When enabled it adds a new button in map's toolbar which can be used to copy map's center coordinates to the clipboard. `The result is always in UTM 35N coordiante system`!
+This extension can be used in [https://kais.cadastre.bg/bg/Map](https://kais.cadastre.bg/bg/Map) site only. When enabled it adds a new button in map's toolbar which can be used to copy map's center coordinates to the clipboard. `The result is always in UTM 35N coordinаte system`!
 
 # How to install
 
@@ -24,3 +24,4 @@ This extension can be used in [https://kais.cadastre.bg/bg/Map](https://kais.cad
 5. And choose the directory where the extension was unzipped.
    ![alt text](./img/04.png)
 6. `Cadastre map center` extension is now available for use!
+   ![alt text](./img/05.png)

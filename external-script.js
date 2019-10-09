@@ -26,6 +26,7 @@ var createButton = text => {
   button.style.border = '1px solid white';
   button.style.backgroundColor = 'green';
   button.style.color = 'white';
+
   return button;
 };
 

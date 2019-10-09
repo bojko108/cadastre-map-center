@@ -2,7 +2,10 @@
 
 Developed as a chrome extension, this tool can be used to copy map's center coordinates to your clipboard.
 
-This extension can be used in [https://kais.cadastre.bg/bg/Map](https://kais.cadastre.bg/bg/Map) site only. When enabled it adds a new button in map's toolbar which can be used to copy map's center coordinates to the clipboard. `The result is always in UTM 35N coordinаte system`!
+This extension can be used in [https://kais.cadastre.bg/bg/Map](https://kais.cadastre.bg/bg/Map) site only. When enabled it adds two new buttons in map's toolbar:
+
+- `Copy coordinates` - which can be used to copy map's center coordinates to the clipboard. **The result is always in UTM 35N coordinаte system**!
+- `Open SLK` - which can open SLK in new tab and zoom to current cadastral map location.
 
 # How to install
 
